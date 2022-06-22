@@ -1,0 +1,31 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: -10px;
+}
+
+h2 {
+    background-color: purple;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: -10px;
+}
+
+h3 {
+    background-color: lightblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+
+#cloud {
+    color: aqua;
+}
