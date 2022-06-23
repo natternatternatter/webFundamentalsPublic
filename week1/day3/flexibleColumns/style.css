@@ -1,0 +1,18 @@
+.row {
+    display: flex;
+}
+
+.col {
+    background-color: bisque;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: bisque;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: bisque;
+    flex: 3;
+}
