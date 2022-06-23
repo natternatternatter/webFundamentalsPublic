@@ -1,18 +1,22 @@
 .row {
     display: flex;
+    margin-bottom: 5px;
 }
 
 .col {
     background-color: bisque;
     flex: 1;
+    margin-right: 2px;
 }
 
 .col-2 {
     background-color: bisque;
     flex: 2;
+    margin-right: 2px;
 }
 
 .col-3 {
     background-color: bisque;
     flex: 3;
+    margin-right: 2px;
 }
