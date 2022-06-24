@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    background-color: blueviolet;
+    height: 50px;
+    width: 750px;
+}
+
+.main {
+    background-color: chartreuse;
+    height: 500px;
+    width: 750px;
+}
+
+.userCard {
+    background-color: coral;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 75px;
+    top: 25px;
+}
+
+.educationCard {
+    background-color: coral;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 75px;
+    top: 50px;
+}
