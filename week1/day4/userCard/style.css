@@ -65,7 +65,7 @@ a:link {
 
 #profilePic {
     height:75px;
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 50px;
 }
