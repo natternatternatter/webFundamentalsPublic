@@ -3,33 +3,69 @@
     margin: 0;
 }
 
-.top {
-    height: 50px;
-    background-color: skyblue;
-    display: block;
+body {
+    height: 500px;
+    width: 1000px;
 }
 
-.main {
-    display: flex;
+.top {
+    background-color: rgb(83, 186, 207);
+    height: 100px;
+    width: 775px;
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    height: 215px;
+    width: 719px;
+    border: 3px solid lightgray;
+    border-top: none;
+    padding: 25px;
+    
 }
 
 #name {
-
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
 }
 
 img {
-    height: 5px;
+    height: 17px;
 }
 
 #location {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 #occupation {
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
 }
 
-#settings {
+#settings{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
 
+a:link {
+    color:rgb(83, 186, 207)
+}
+
+#profilePic {
+    height:75px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
 }
