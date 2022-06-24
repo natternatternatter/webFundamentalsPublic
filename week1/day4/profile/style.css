@@ -5,30 +5,75 @@
 
 .navBar {
     background-color: blueviolet;
-    height: 50px;
-    width: 750px;
+    height: 60px;
+    width: 850px;
 }
 
 .main {
     background-color: chartreuse;
-    height: 500px;
-    width: 750px;
+    height: 600px;
+    width: 850px;
 }
 
 .userCard {
     background-color: coral;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
     position: relative;
-    left: 75px;
-    top: 25px;
+    left: 125px;
+    top: 50px;
+}
+
+.useCardBanner {
+    background-color: aqua;
+    height: 85px;
 }
 
 .educationCard {
     background-color: coral;
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 350px;
     position: relative;
-    left: 75px;
-    top: 50px;
+    left: 125px;
+    top: 100px;
+}
+
+.eduCardBanner {
+    background-color: aqua;
+    height: 50px;
+}
+
+.connectionRequestCard {
+    background-color: coral;
+    height: 150px;
+    width: 175px;
+    position: relative;
+    right: -525px;
+    bottom: 450px;
+}
+
+.conReqCardBanner {
+    background-color: aqua;
+    height: 50px;
+}
+
+.connectionsCard {
+    background-color: coral;
+    height: 200px;
+    width: 175px;
+    position: relative;
+    right: -525px;
+    bottom: 400px;
+}
+
+.conCardBanner {
+    background-color: aqua;
+    height: 50px;
+}
+
+.conCardLink {
+    background-color: darksalmon;
+    height: 35px;
+    position: relative;
+    top: 115px;
 }
