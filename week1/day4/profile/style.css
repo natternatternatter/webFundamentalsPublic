@@ -7,6 +7,58 @@
     background-color: blueviolet;
     height: 60px;
     width: 850px;
+    display: flex;
+}
+
+.navBarLeft {
+    background-color: black;
+    height: 60px;
+    width: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 105px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 20;
+}
+
+p {
+    color: lightgray;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+#highlighted {
+    color: white;
+}
+
+.navBarRight {
+    background-color: black;
+    height: 60px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+button {
+    display: block;
+    height: 25px;
+    width: 75px;
+    margin-left: 5px;
+    color: white;
+    font-family:sans-serif;
+    font-size: 14px;
+    background-color: skyblue;
+    border:none;
+
 }
 
 .main {
@@ -29,6 +81,11 @@
     height: 85px;
 }
 
+.useCardMain {
+    background-color: deeppink;
+    height: 165px;
+}
+
 .educationCard {
     background-color: coral;
     height: 250px;
@@ -41,6 +98,11 @@
 .eduCardBanner {
     background-color: aqua;
     height: 50px;
+}
+
+.eduCardMain {
+    background-color: deeppink;
+    height: 200px;
 }
 
 .connectionRequestCard {
@@ -57,6 +119,11 @@
     height: 50px;
 }
 
+.conReqCardMain {
+    background-color: deeppink;
+    height: 100px;
+}
+
 .connectionsCard {
     background-color: coral;
     height: 200px;
@@ -71,9 +138,12 @@
     height: 50px;
 }
 
+.conCardMain {
+    background-color: deeppink;
+    height: 115px;
+}
+
 .conCardLink {
     background-color: darksalmon;
     height: 35px;
-    position: relative;
-    top: 115px;
 }
