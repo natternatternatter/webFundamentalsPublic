@@ -67,6 +67,14 @@ button {
     width: 850px;
 }
 
+#profilePic {
+    height: 75px;
+    position: absolute;
+    top: 140px;
+    left:135px;
+    z-index: 1;
+}
+
 .userCard {
     background-color: coral;
     height: 250px;
@@ -109,7 +117,6 @@ font-size: 16px;
 margin-bottom: 10px;
 margin-left: 10px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 #occupation {
@@ -168,6 +175,35 @@ h4 {
     height: 200px;
     border: 3px solid lightgray;
     border-top: none;
+    display:flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight:50;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+h6 {
+    color: dimgray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+h7 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 13px;
 }
 
 .connectionRequestCard {
@@ -212,6 +248,26 @@ h4 {
     height: 100px;
     border: 3px solid lightgray;
     border-top: none;
+}
+
+.nameSpot {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connectionRequest img {
+    height: 25px;
+    margin-top: 1px;
+}
+
+.connectionRequest {
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-right: 10px;
 }
 
 .connectionsCard {
@@ -265,9 +321,36 @@ h3 {
     height: 115px;
 }
 
+.nameSpot2 {
+    height: 28;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.connection img {
+    height: 25px;
+    margin-top: 1px;
+}
+
+.connection {
+    font-size: 14px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
 .conCardLink {
     background-color: white;
     height: 35px;
     border: 3px solid lightgray;
     border-top: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin-left: 13px;
+    color:rgb(83, 186, 207);
 }
