@@ -1,0 +1,38 @@
+function newPizza(crustType, sauceType, cheeses, toppings) {
+    var pizza = {};
+    pizza.crustType = crustType;
+    pizza.sauceType = sauceType;
+    pizza.cheese = cheeses;
+    pizza.toppings = toppings;
+    return pizza;
+}
+
+var pizza1 = newPizza("deepDish", "traditional", "mozzarella", ["pepperoni", "sausage"]);
+console.log (pizza1);
+
+var pizza2 = newPizza("handTossed", "marinara", ["mozzarella", "feta"], ["mushrooms", "olives", "onions"]);
+console.log (pizza2);
+
+var pizza3 = newPizza("thinCrust", "barbeque", "mozzarella", ["pineapple", "canadianBacon"]);
+console.log (pizza3);
+
+var pizza4 = newPizza("handTossed", "marinara", "feta", ["spinach", "peppers", "onions"]);
+console.log (pizza4);
+
+var pizzaChoices = [pizza1, pizza2, pizza3, pizza4];
+
+//function to randomly pick one of the four options
+function randomPizza(pizzaArray) {
+    var min = 0;
+    var max = pizzaArray.length;
+    return pizzaArray[Math.floor(Math.random()) * (max-min + 1) + min];
+}
+
+console.log (randomPizza(pizzaChoices));
+
+//starting to write a function for a totally random pizza with random ingredients//
+
+var cheeses = ["feta", "mozzarella", "gruyere"];
+var crusts = ["handTossed", "thinCrust", "deepDish"];
+var sauces = ["traditional", "marinara", "barbeque"];
+var toppings = ["pepperoni", "sausage", "mushrooms", "olives", "onions", "pineapple", "canadianBacon", "spinach", "peppers", "onions"]
