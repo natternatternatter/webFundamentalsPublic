@@ -1,14 +1,14 @@
 
-// I want this to work, but it's not working //
+// // I want this to work, but it's not working //
 
 // var onOff = element.innerText;
 
-// function logInOff(element) {
-//     if (onOff = "Login") {
-//         onOff = "Log off";
+// function logOut(element) {
+//     if (onOff == "Login") {
+//         element.innerText = "Log off";
 //     }
-//     else if (onOff = "Log off") {
-//         onOff = "Login";
+//     else if (onOff == "Log off") {
+//         element.innerText = "Login";
 //     }
 // }   
 
