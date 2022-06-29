@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navBar {
+    border-top: 10px solid magenta;
+    height: 50px;
+    display: flex;
+}
+
+.navLeft {
+    width: 50%;
+    height:50px;
+    display:flex;
+    align-items: baseline;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navLeft h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.navRight {
+    width: 50%;
+    height:50px;
+
+    justify-content: center;
+    align-items: flex-end
+}
+
+.navRightContent {
+
+    height: 175px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navRightContent img {
+
+    height: 30px;
+    width: 30px
+}
+
+.navRightContent select {
+
+    height: 15px;
+    width: 60px;
+}
+
+.highlights {
+    margin-left: 80px;
+}
+
+.main {
+    height: 225px;
+    display: flex;
+}
+
+.middleBars {
+    height: 50px;
+    display: flex;
+}
+
+.middleBars .tabs {
+    width: 40px;
+    height: 5px;
+    margin-left: 20px;
+    border-radius: 5%;
+
+}
+
+
+.cards {
+    height: 175px;
+    display:flex;
+}
+
+.card1 {
+    height: 175px;
+    width: 150px;
+}
+
+.card2 {
+    height: 175px;
+    width: 150px;
+}
+
+.card3 {
+    height: 175px;
+    width: 150px;
+}
+
+.cardBottom {
+    display: flex;
+}
+
+.logos {
+    display:flex;
+}
